@@ -1,4 +1,4 @@
-install socker desktop
+install docker desktop
 install wsl2
 restart machine
 start docker desktop
