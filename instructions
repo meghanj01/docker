@@ -1,0 +1,7 @@
+install socker desktop
+install wsl2
+restart machine
+start docker desktop
+RUN
+docker build -t channel-api .
+docker run -d -p 8080:80 channel-api
